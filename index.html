@@ -37,5 +37,17 @@ ul li{
     flex:1;
 }
 </style>
+<Script Language=javascript>//禁用右键
+ 
+    function Click(){
+    alert('版权所有，请尊重！');
+     
+    window.event.returnValue=false;
+     
+    }
+     
+    document.oncontextmenu=Click;
+     
+    </Script>
 </body>
 </html>
